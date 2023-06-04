@@ -1,0 +1,47 @@
+.header {
+    position: relative;
+display: flex;
+flex-direction: column;
+}
+
+.background-img {
+background-size: cover;
+
+}
+
+.mobile-menu {
+    height: 32px;
+    width: 40px;
+   
+}
+
+.header-nav {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+width: 100%;
+}
+
+.header-title {
+position: absolute;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+}
+
+.header-description {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+}
+
+.header-button {
+    position: absolute;
+    width: 236px;
+    height: 52px;
+    border-radius: 20px;
+    background-color: #2091F9;
+    color: white;
+    border-color: #2091F9;
+}
