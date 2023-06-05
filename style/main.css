@@ -1,0 +1,8 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.content-block {
+    max-width: 1440px;
+    margin: 0 auto;
+}

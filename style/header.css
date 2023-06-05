@@ -1,47 +1,96 @@
 .header {
+    overflow: hidden;
     position: relative;
-display: flex;
-flex-direction: column;
 }
 
-.background-img {
-background-size: cover;
-
+.header-background {
+    position: absolute;
+    z-index: -1;
 }
 
-.mobile-menu {
-    height: 32px;
-    width: 40px;
-   
+.header-background>img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-bar {
+    max-width: 1210px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 156px;
 }
 
 .header-nav {
     display: flex;
-justify-content: space-between;
-align-items: center;
-position: absolute;
-width: 100%;
+    align-items: center;
 }
 
-.header-title {
-position: absolute;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 48px;
+.header-nav-links {
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.header-description {
-    position: absolute;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
-}
-
-.header-button {
-    position: absolute;
-    width: 236px;
-    height: 52px;
-    border-radius: 20px;
-    background-color: #2091F9;
+.nav-link>a {
+    text-decoration: none;
     color: white;
-    border-color: #2091F9;
+    padding: 10px;
 }
+
+.main-logo {
+    margin-left: 70px;
+}
+
+.soc-links {
+    display: flex;
+    gap: 24px;
+}
+
+.soc-links>li {
+    width: 41px;
+    height: 41px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    margin: 0 auto;
+    max-width: 820px;
+    padding: 80px 0 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    color: white;
+}
+
+.hero-title {
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 84px;
+}
+
+.hero-description {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.hero-button {
+    text-align: center;
+    background-color: #2091F9;
+    width: 236px;
+    padding: 16px 0;
+    border-radius: 35px;
+    color: white;
+}
+
