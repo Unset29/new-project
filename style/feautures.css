@@ -33,7 +33,7 @@
     content: '';
     width: 62px;
     height: 62px;
-    background: url(/img/svg/play_button.svg) no-repeat;
+    background: url(img/svg/play_button.svg) no-repeat;
     background-size: cover;
     transform: translate(-50%, -50%);
     position: absolute;
