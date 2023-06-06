@@ -6,3 +6,12 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+.action__button {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #2091F9;
+    padding: 16px 38px;
+    border-radius: 35px;
+    color: white;
+}

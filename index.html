@@ -17,12 +17,12 @@
 
 <body>
   <header class="header">
-    <div class="header-background">
+    <div class="header__background">
       <img src="img/header-background.jpg" alt="background-img">
     </div>
-    <div class="header-bar">
-      <nav class="header-nav">
-        <ul class="header-nav-links">
+    <div class="header__bar">
+      <nav class="header__nav">
+        <ul class="header__nav-links">
           <li class="nav-link"><a href="/">Home</a></li>
           <li class="nav-link"><a href="#">Product</a></li>
           <li class="nav-link"><a href="#">Pricing</a></li>
@@ -32,6 +32,7 @@
         <a href="/" class="main-logo">
           <img src="img/svg/logo.svg" alt="figmaland logo">
         </a>
+        <div class="header__mobile-menu"></div>
       </nav>
       <ul class="soc-links">
         <li>
@@ -51,17 +52,19 @@
         </li>
       </ul>
     </div>
-    <div class="header-content">
-      <div class="header-hero">
-        <h1 class="hero-title">
+    <div class="header__content">
+      <div class="header__hero">
+        <h1 class="header__hero-title">
           The best products start with Figma
         </h1>
-        <p class="hero-description">
-          Most calendars are designed for teams. Slate is designed
-          for freelancers
+        <p class="header__hero-description">
+          Most calendars are designed for teams.
+          <span>
+            Slate is designed for freelancers
+          </span>
         </p>
       </div>
-      <div class="hero-button">
+      <div class="header__hero-button action__button">
         Try For Free
       </div>
     </div>
