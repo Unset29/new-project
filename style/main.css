@@ -1,10 +1,13 @@
 body {
     font-family: 'Inter', sans-serif;
+    color: rgba(37, 43, 66, 1);
 }
 
 .content-block {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .action__button {

@@ -101,7 +101,7 @@
     width: 236px;
 }
 
-@media screen and (min-width:412px) {
+@media screen and (min-width:415px) {
     .header__nav-links {
         gap: 10px;
         display: flex;
