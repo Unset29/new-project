@@ -1,0 +1,41 @@
+.organize {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ogranize__button {
+    max-width: 236px;
+    padding: 22px;
+    margin: 59px auto;
+}
+
+.organize__image {
+    width: 100%;
+}
+
+@media screen and (min-width: 419px) {
+    .organize {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding-top: 225px;
+        padding-bottom: 225px;
+    }
+
+    .organize__content {
+        max-width: 540px;
+    }
+
+    .organize__heading {
+        text-align: left;
+    }
+
+    .ogranize__button {
+        margin: 60px 0 0;
+    }
+
+    .organize__image {
+        max-width: 625px;
+    }
+}

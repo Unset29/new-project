@@ -1,6 +1,15 @@
+@import url(./reset.css);
+
+:root {
+    --main-dark-blue-color: rgb(37, 43, 66);
+    --secondary-text-color: rgba(55, 71, 84, 1);
+    --primary-color: #2091F9;
+    --white-color: #fff;
+}
+
 body {
     font-family: 'Inter', sans-serif;
-    color: rgba(37, 43, 66, 1);
+    color: var(--main-dark-blue-color);
 }
 
 .content-block {
@@ -13,8 +22,27 @@ body {
 .action__button {
     text-align: center;
     box-sizing: border-box;
-    background-color: #2091F9;
+    background-color: var(--primary-color);
     padding: 16px 38px;
     border-radius: 35px;
-    color: white;
+    color: var(--white-color);
+    white-space: nowrap;
+}
+
+.block__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    text-align: center;
+}
+
+.block__heading-title {
+    font-size: 48px;
+    line-height: 55px;
+}
+
+.block__heading-description {
+    font-size: 28px;
+    line-height: 40px;
+    color: var(--secondary-text-color);
 }
