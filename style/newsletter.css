@@ -1,0 +1,36 @@
+.newsletter__description {
+    text-align: center;
+}
+
+.newsletter_img {
+    width: 100%;
+    padding: 59px 0;
+}
+
+.newsletter__upper-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.newsletter__text {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.newsletter__form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.newsletter__input {
+
+    border-radius: 35px;
+    padding: 19px 35px;
+}
+
+.newsletter__button {
+    padding: 19px 35px;
+}
