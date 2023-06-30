@@ -65,8 +65,12 @@
 }
 
 @media screen and (min-width: 321px) {
-    .newsletter__content {
-        display: flex;
+    .newsletter__content {}
 
+    .newsletter_img {
+        width: 50%;
     }
+
+    .newsletter__form {}
+
 }
